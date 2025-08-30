@@ -207,6 +207,10 @@ The repository includes comprehensive `.gitignore` files:
 
 ---
 
-**Happy coding! 🏠✨**
+Potential Improvements:
 
-*Built with ❤️ using .NET 8 and React 18*
+Depends on the project requirements use Tailwind CSS for faster and more maintainable styling.
+Deploy to a cloud platform (e.g. Azure)
+Implement a CI/CD pipeline for automated builds, testing, and deployments. 
+
+
