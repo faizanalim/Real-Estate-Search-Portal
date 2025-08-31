@@ -30,7 +30,9 @@ namespace RealEstateAPI.Data
                     { 
                         "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
                         "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800"
-                    })
+                    }),
+                    SquareFeet = 1200
+
                 },
                 new Property
                 {
@@ -46,7 +48,8 @@ namespace RealEstateAPI.Data
                     { 
                         "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
                         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800"
-                    })
+                    }),
+                    SquareFeet = 1000
                 },
                 new Property
                 {
@@ -62,7 +65,8 @@ namespace RealEstateAPI.Data
                     { 
                         "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800",
                         "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800"
-                    })
+                    }),
+                     SquareFeet = 1500
                 },
                 new Property
                 {
@@ -78,7 +82,8 @@ namespace RealEstateAPI.Data
                     { 
                         "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=800",
                         "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
-                    })
+                    }),
+                    SquareFeet = 1200
                 },
                 new Property
                 {
@@ -94,7 +99,8 @@ namespace RealEstateAPI.Data
                     { 
                         "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800",
                         "https://images.unsplash.com/photo-1560448075-bb485b067938?w=800"
-                    })
+                    }),
+                       SquareFeet = 1800
                 },
                 new Property
                 {
@@ -110,7 +116,8 @@ namespace RealEstateAPI.Data
                     { 
                         "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
                         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800"
-                    })
+                    }),
+                       SquareFeet = 2000
                 }
             };
 
