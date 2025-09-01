@@ -15,7 +15,6 @@ namespace RealEstateAPI.DTOs
         public string Description { get; set; } = string.Empty;
         public List<string> ImageUrls { get; set; } = new List<string>();
         public bool IsFavorite { get; set; }
-        public int SquareFeet { get; set; }
     }
 
     public class PropertyFilter
@@ -29,8 +28,6 @@ namespace RealEstateAPI.DTOs
         public int Page { get; set; } = 1;
         public int PageSize { get; set; } = 10;
 
-        public int? MinSquareFeet { get; set; }
-        public int? MaxSquareFeet { get; set; }
     }
 
     public class PropertyListResponse

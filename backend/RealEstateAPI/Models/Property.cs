@@ -40,6 +40,6 @@ namespace RealEstateAPI.Models
         
         // Navigation property for favorites
         public virtual ICollection<Favorite> Favorites { get; set; } = new List<Favorite>();
-        public int SquareFeet{ get; set; }
+
     }
 }

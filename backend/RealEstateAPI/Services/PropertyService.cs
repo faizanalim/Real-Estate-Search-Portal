@@ -49,11 +49,6 @@ namespace RealEstateAPI.Services
             if (filter.ListingType.HasValue)
                 query = query.Where(p => p.ListingType == filter.ListingType.Value);
 
-            if (filter.MinSquareFeet.HasValue)
-                query = query.Where(p => p.SquareFeet >= filter.MinSquareFeet.Value);
-
-            if (filter.MaxSquareFeet.HasValue)
-                query = query.Where(p => p.SquareFeet <= filter.MaxSquareFeet.Value);
 
             // Get total count for pagination
             var totalCount = await query.CountAsync();
